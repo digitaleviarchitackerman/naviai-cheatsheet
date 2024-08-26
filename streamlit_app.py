@@ -3,7 +3,6 @@ import streamlit as st
 # Streamlit app
 st.header("AI Interview Cheatsheet")
 st.sidebar.header("AI Interview Preparation")
-st.sidebar.text("Number of cheatsheets generated: ")
 
 # Input Position
 position = st.sidebar.text_input("Position")
